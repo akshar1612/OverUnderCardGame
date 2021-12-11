@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#13B6BD"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Please input your names"
+            android:textSize="35dp" />
+
+        <EditText
+            android:id="@+id/p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="200dp"
+            android:hint="Player one what is your name?"
+            android:textSize="24dp"
+
+            />
+
+        <EditText
+            android:id="@+id/p2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:inputType="text"
+            android:layout_marginTop="53dp"
+            android:hint="Player two what is your name?"
+            android:textSize="24dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+
+            android:textSize="25dp"
+            android:layout_gravity="right"
+            android:background="#13B6BD"
+            android:layout_marginRight="23dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
